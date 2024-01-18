@@ -1,0 +1,12 @@
+'''
+Write a program to get Decimal value as input and convert it into other
+like: Binary, Octel, Hexa,etc
+
+'''
+
+num = int(input("Enter Decimal Value: "))
+
+print("Decimal Value: ",num)
+print("Binary value : ", bin(num))
+print("Octel Valye : ", oct(num))
+print("Hexadecimal Value : ", hex(num))
