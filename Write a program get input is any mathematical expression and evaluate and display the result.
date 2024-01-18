@@ -1,0 +1,6 @@
+'''
+Write a program get input is any mathematical expression and evaluate and display the result.
+'''
+
+expression = input("Enter Any Expression: ")
+print("Answer is: ",eval(expression))
