@@ -1,0 +1,16 @@
+'''
+Write a program to get Student Details as input and Display it.
+'''
+
+print("Fill Following Student Details.....")
+name = input("Enter Student Name: ")
+rollno = int(input("Enter Roll No:"))
+branch = input("Enter Branch: ")
+id = int(input("Enter Student Id:"))
+
+print("Welcome, ",name," You are Successfully added into Student Records.")
+print("Student Details: ")
+print("Student Name: "+name)
+print("Student Roll no: ",rollno)
+print("Branch: ",branch)
+print("Student Id: ",id)
