@@ -1,0 +1,14 @@
+'''
+Prctical No3.2 write a program to print fibonacci series.
+'''
+
+myList=['a','b','c','a','a','b','d']
+newList=[]
+duplicateList=[]
+for i in myList:
+    if i not in newList:
+        newList.append(i)
+    elif i not in duplicateList:
+        duplicateList.append(i)
+print(duplicateList)
+print(newList)
