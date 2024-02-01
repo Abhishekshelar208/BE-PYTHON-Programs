@@ -1,0 +1,26 @@
+'''
+Practical no 2.3 Write a program to show operations like : Union, Insection and difference between 2 sets. Also add and remove some elements and print result.
+'''
+
+A = {'A','B','C','D'}
+B = {'B','C','E','F'}
+
+print("Union of Set A and Set B is: ",B.union(A))
+print("Intersection of Set A and Set B is: ",A.intersection(B))
+print("Difference of Set A and Set B is: ",A.difference(B))
+print("Difference of Set B and Set A is: ",B.difference(A))
+
+
+A.add('X')
+A.add('Y')
+print("After Adding X,Y in Set A: ",A)
+
+
+B.add('L')
+B.add('M')
+
+print("After Adding L,M in Set A: ",B)
+A.remove('A')
+print("After Removing A from Set A:",A)
+B.remove('A')
+print("After Removing A from Set B:",B)
