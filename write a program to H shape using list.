@@ -1,0 +1,17 @@
+'''
+Prctical No3.3 write a program to H shape using list.
+'''
+
+alphabate=[
+    [1,0,0,0,0,0,1],
+    [1,0,0,0,0,0,1],
+    [1,1,1,1,1,1,1],
+    [1,0,0,0,0,0,1],
+    [1,0,0,0,0,0,1]]
+for row in alphabate:
+    for col in row:
+        if col==1:
+            print("*",end="   ")
+        else:
+            print('',end="    ")
+    print()
